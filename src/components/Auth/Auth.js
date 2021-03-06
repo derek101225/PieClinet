@@ -3,7 +3,6 @@ import './Auth.css';
 
 const Auth = (props) => {
 
-
     console.log(props)
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
