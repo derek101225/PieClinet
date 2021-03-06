@@ -34,7 +34,7 @@ const Auth = (props) => {
             })
         })
         .then(response => response.json())
-        .then(json => props.updateToken(json.token))
+        .then(json => props.updateLocalStorage(json.token))
     }
 
     const title = () => {

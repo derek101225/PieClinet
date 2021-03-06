@@ -1,5 +1,5 @@
 import './Navbar.css';
-// import Logout from './Logout/Logout';
+import Logout from './Logout/Logout';
 import piePic from '../../assets/piePic.jpeg';
 
 const Navbar = (props) => {
@@ -8,7 +8,7 @@ const Navbar = (props) => {
         <div>
             <nav>
                 <img id='piePic' src={piePic} alt='pie' />
-                
+                <Logout Logout={props.Logout} />
             </nav>
         </div>
     );
